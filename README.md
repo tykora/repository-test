@@ -1,4 +1,4 @@
-# repository-test
+# guess the number game
 import random
 num1 = random.randrange(1, 100)
 guess = 0
@@ -14,6 +14,7 @@ while guess != num1:
       print("out of bounds! try again.")
     if guess == num1:
       print("you found me! ah ha ha!")
+      break
   else:
     if guess = "history"
       print(history)
